@@ -1,9 +1,9 @@
-NumberHex - The Common Multiple Connection Game
+## NumberHex - The Common Multiple Connection Game
 A real-time, browser-based implementation of the classic connection game Hex, featuring a unique common multiple placement rule on an 11×11 numeric grid.
 
 NumberHex was created to provide a fun, educational, and challenging environment for users to practice their knowledge of common multiples and factors in a strategic context. It supports both hotseat multiplayer and a single-player mode against an AI bot.
 
-🌟 Features
+**🌟 Features**
 Real-time State Management: Uses Google Cloud Firestore to synchronize game state instantly for seamless hotseat multiplayer.
 
 Custom Placement Rules: Players must place their piece on a tile whose value is a common multiple of the two rolled dice (1-10).
@@ -14,7 +14,7 @@ Strict Penalty System: Incorrect placement or unnecessary passes result in a for
 
 Fully Responsive Design: Optimized for play on all devices, from mobile phones to desktop browsers.
 
-💻 Usage
+**💻 Usage**
 Gameplay Rules
 Goal: Blue connects Left-to-Right. Red connects Top-to-Bottom.
 
@@ -24,18 +24,9 @@ Placement: The selected tile's value must be divisible by both dice values (a co
 
 Pass: If no valid common multiple is available, the player must click Pass Turn.
 
-Running a Core Command
-This is a browser-based application deployed on Netlify. You can visit the project link below to play!
-
-# Compiles the app for production (Developer use only)
-npm run build
-
-# Runs tests (Jest/Vitest framework assumed)
-npm test
 
 
-
-Key Application Functionality
+**Key Application Functionality**
 Once the application is running, users can:
 
 Switch between Single Player (Bot) and Multiplayer (Hotseat) modes using the dropdown.
@@ -44,7 +35,7 @@ Click the Roll Dice button (which automatically happens at the start of the turn
 
 Use the Undo Last Move button (available in hotseat mode) to correct a mistake.
 
-🤝 Contributing
+**🤝 Contributing**
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are greatly appreciated.
 
 Fork the Project
@@ -57,10 +48,10 @@ Push to the Branch (git push origin feature/AddBotDifficulty)
 
 Open a Pull Request
 
-📄 License
+**📄 License**
 Distributed under the MIT License. See LICENSE.md for more information.
 
-📞 Contact
+**📞 Contact**
 Project By: Nikit Chobisa and Prabhav
 School: Delhi Public School Harni
 
